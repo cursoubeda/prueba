@@ -1,0 +1,41 @@
+
+ div.fondo{
+    background-image: url("../img/seis.jpg");
+    
+ }
+
+ div.fondo img{
+    width: 100px;
+ }
+
+ i{
+    color:#f42c4e;
+    font-size: 45px;
+ }
+ div.carousel-item {
+   max-height: 400px;
+   overflow: hidden;
+   height: 400px; /* Altura fija para el carrusel */
+ 
+}
+
+div.carousel-item img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+  
+   
+}
+
+.carousel-inner {
+   height: 400px; /* Asegura que el contenedor interno también tiene altura fija */
+}
+
+button.accordion-button{
+   background-color: #f42c4e;
+}
+
+button.accordion-button:not(.collapsed){
+   background-color: black;
+}
